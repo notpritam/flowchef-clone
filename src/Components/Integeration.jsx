@@ -1,5 +1,4 @@
 import React from "react";
-import bg from "../assets/img/bg.jpg";
 
 const dataArray = [
   {
@@ -171,7 +170,7 @@ function Integeration() {
           <div className="intergeration-button">
             <a href="" className="action-button">
               <div className="button">Let's cook a website</div>
-              <div className="button_bg" style={{ backgroundImage: bg }}></div>
+              <div className="button_bg"></div>
             </a>
           </div>
         </div>

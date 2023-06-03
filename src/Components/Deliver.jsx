@@ -1,6 +1,5 @@
 import React from "react";
 const data = ["Super Hot", "With Love", "Fresh", "Best Quality", "Amazing"];
-import bg from "../assets/img/bg.jpg";
 
 const featureData = [
   {
@@ -119,7 +118,7 @@ function Deliver() {
           <div className="feature-button">
             <a href="" className="action-button">
               <div className="button">Let's cook a website</div>
-              <div className="button_bg" style={{ backgroundImage: bg }}></div>
+              <div className="button_bg"></div>
             </a>
           </div>
         </div>

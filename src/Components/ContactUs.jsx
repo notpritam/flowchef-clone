@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import continueImg from "../assets/img/call.svg";
 import second from "../assets/img/bg.webp";
 import HALO from "vanta/dist/vanta.halo.min";
-import bg from "../assets/img/bg.jpg";
 
 function ContactUs() {
   const [vantaEffect, setVantaEffect] = useState(null);
@@ -41,7 +40,7 @@ function ContactUs() {
           <div className="hero-button">
             <a href="" className="action-button">
               <div className="button">Spice it up</div>
-              <div className="button_bg" style={{ backgroundImage: bg }}></div>
+              <div className="button_bg"></div>
             </a>
             <a className="additional_button">
               <span>Schedule a free call</span>
