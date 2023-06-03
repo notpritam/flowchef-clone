@@ -1554,11 +1554,13 @@ p {
       font-size: $text-size-medium;
       position: relative;
       align-items: center;
+      img {
+        width: 2rem;
+        height: 2rem;
+      }
 
       &:hover {
         .arrow-button {
-          width: 1rem;
-          height: 1rem;
           justify-content: center;
           align-items: center;
           transition: all 0.4s;

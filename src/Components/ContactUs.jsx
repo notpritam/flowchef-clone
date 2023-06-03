@@ -1,13 +1,11 @@
 import React from "react";
-import continueImg from "../assets/img/hero/continue.svg";
-import Particles from "react-particles";
-import particleConfig from "./particles/config";
+import continueImg from "../assets/img/call.svg";
 
 function ContactUs() {
   return (
     <>
       <div className="contact">
-        <Particles id="swarm" params={particleConfig}></Particles>
+        {/* <Particles id="swarm" params={particleConfig}></Particles> */}
 
         <div className="hero_content">
           <span className="hero_heading">
