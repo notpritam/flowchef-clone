@@ -17,72 +17,70 @@ const projects = [
   },
   {
     id: "2",
-    title: "Traba Pro",
+    title: "Ziptility",
     image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/6437302bf47c6ad7977b0251_Ziptility.png",
     bg_image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034ea62961228bbd6850b_Project%20BG%20Grad%20(1).jpg",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/6435429f96b00179772a5ff4_12%20(1).png",
     link: "",
     tags: [
       { title: "Client-First", image: "" },
-      { title: "User", image: "" },
-      { title: "Experience", image: "" },
+      { title: "User Experience", image: "" },
+      { title: "Development", image: "" },
     ],
   },
   {
     id: "3",
-    title: "Traba Pro",
+    title: "Source Health",
     image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643730111f24c54fb75a9592_Source%20Health.png",
     bg_image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034ea62961228bbd6850b_Project%20BG%20Grad%20(1).jpg",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643997b558376d254686e9ff_43.png",
     link: "",
     tags: [
-      { title: "Client-First", image: "" },
-      { title: "User", image: "" },
-      { title: "Experience", image: "" },
+      { title: "User Experience", image: "" },
+      { title: "Development", image: "" },
     ],
   },
   {
     id: "4",
-    title: "Traba Pro",
+    title: "Growth School",
     image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643731bd3097b50070017ffb_Growth%20School.png",
     bg_image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034ea62961228bbd6850b_Project%20BG%20Grad%20(1).jpg",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643995130e8a2569410f6236_36.png",
     link: "",
     tags: [
       { title: "Client-First", image: "" },
-      { title: "User", image: "" },
-      { title: "Experience", image: "" },
+      { title: "User Experience", image: "" },
+      { title: "Development", image: "" },
     ],
   },
   {
     id: "5",
-    title: "Traba Pro",
+    title: "Apple Store India Rebuild",
     image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/6437326fa0ed70b6939ed29b_Apple%20India.png",
     bg_image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034ea62961228bbd6850b_Project%20BG%20Grad%20(1).jpg",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643995130e8a2569410f6236_36.png",
     link: "",
     tags: [
-      { title: "Client-First", image: "" },
-      { title: "User", image: "" },
-      { title: "Experience", image: "" },
+      { title: "Cloneable", image: "" },
+      { title: "Rebuild", image: "" },
+      { title: "Development", image: "" },
     ],
   },
   {
     id: "6",
-    title: "Traba Pro",
+    title: "OpenTrack",
     image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643730e63097b5fcbb0176a1_OpenTrack.png",
     bg_image:
-      "https://assets.website-files.com/63df7fac01f036699dd1dae4/643034ea62961228bbd6850b_Project%20BG%20Grad%20(1).jpg",
+      "https://assets.website-files.com/63df7fac01f036699dd1dae4/6439b9be8336202edbf81ac4_41.png",
     link: "",
     tags: [
-      { title: "Client-First", image: "" },
-      { title: "User", image: "" },
-      { title: "Experience", image: "" },
+      { title: "User Experience", image: "" },
+      { title: "Development", image: "" },
     ],
   },
 ];
@@ -119,6 +117,7 @@ function Experience() {
                     </>
                   ))}
                 </div>
+                <span className="name">{item.title}</span>
               </div>
             </div>
           </>

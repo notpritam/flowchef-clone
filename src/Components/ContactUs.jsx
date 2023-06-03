@@ -1,11 +1,32 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import continueImg from "../assets/img/call.svg";
+import second from "../assets/img/bg.webp";
+import HALO from "vanta/dist/vanta.halo.min";
 
 function ContactUs() {
+  const [vantaEffect, setVantaEffect] = useState(null);
+  const myRef = useRef(null);
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        HALO({
+          el: myRef.current,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          baseColor: 0x1a1a1a,
+          backgroundColor: 0x1a1a1a,
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
   return (
     <>
       <div className="contact">
-        {/* <Particles id="swarm" params={particleConfig}></Particles> */}
+        <div className="bg" ref={myRef}></div>
 
         <div className="hero_content">
           <span className="hero_heading">

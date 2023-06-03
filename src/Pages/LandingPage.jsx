@@ -8,6 +8,7 @@ import Integeration from "../Components/Integeration";
 import Testimonials from "../Components/Testimonials";
 import Deliver from "../Components/Deliver";
 import ContactUs from "../Components/ContactUs";
+import Footer from "../Components/Footer";
 
 function LandingPage() {
   return (
@@ -25,6 +26,7 @@ function LandingPage() {
       <Testimonials />
       <Deliver />
       <ContactUs />
+      <Footer />
     </>
   );
 }

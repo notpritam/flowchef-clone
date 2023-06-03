@@ -54,8 +54,8 @@ const data = [
 function Testimonials() {
   return (
     <>
-      <div className="testimonial">
-        <div className="container">
+      <div className="testimonial-container">
+        <div className="testimonial">
           <div className="heading">
             <div className="text-div">
               <span className="title">WORDS OF WISDOM</span>
