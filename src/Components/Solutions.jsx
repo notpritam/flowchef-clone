@@ -64,6 +64,10 @@ function Solutions() {
       <div className="solutions">
         <div className="first">
           <div className="box-card">
+            <img
+              className="bg_img"
+              src="https://assets.website-files.com/63de80ab03e95f0ae7de2a37/63e12855842ae7f3b6ed271a_BG%20grad3%20(1).png"
+            ></img>
             <span className="title">SOLUTIONS TO YOUR NEEDS</span>
             <span className="des">
               We offer a wide range of services designed to help you achieve

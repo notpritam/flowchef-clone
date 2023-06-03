@@ -2,7 +2,7 @@ import React from "react";
 import continueImg from "../assets/img/hero/continue.svg";
 
 function Hero() {
-  const length = 800;
+  const length = 400;
   const array = Array(length).fill(null);
   console.log(array);
   return (
@@ -11,9 +11,9 @@ function Hero() {
         <div className="rotating-wrapper">
           <div className="rotating_div">
             <div className="mask-bg"></div>
-            {array.map((item) => (
+            {array.map((item, index) => (
               <>
-                <div className="rotate-item"></div>
+                <div className="rotate-item" key={index}></div>
               </>
             ))}
           </div>
