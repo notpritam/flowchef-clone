@@ -1,4 +1,5 @@
 import React from "react";
+import bg from "../assets/img/bg.jpg";
 
 const data = [
   {
@@ -77,7 +78,10 @@ function Solutions() {
             <div>
               <a href="" className="action-button">
                 <div className="button">Start a project</div>
-                <div className="button_bg"></div>
+                <div
+                  className="button_bg"
+                  style={{ backgroundImage: bg }}
+                ></div>
               </a>
             </div>
           </div>
