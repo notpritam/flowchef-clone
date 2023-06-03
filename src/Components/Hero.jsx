@@ -1,6 +1,5 @@
 import React from "react";
 import continueImg from "../assets/img/hero/continue.svg";
-import bg from "../assets/img/bg.jpg";
 
 function Hero() {
   const length = 400;
@@ -32,7 +31,7 @@ function Hero() {
           <div className="hero-button">
             <a href="" className="action-button">
               <div className="button">Let's cook a website</div>
-              <div className="button_bg" style={{ backgroundImage: bg }}></div>
+              <div className="button_bg"></div>
             </a>
             <a className="additional_button">
               <span>Explore projects</span>
