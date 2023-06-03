@@ -70,10 +70,12 @@ function Solutions() {
               your goals, from design and user experience to custom development
               and third-party integrations.
             </span>
-            <a href="" className="action-button">
-              <div className="button">Let's cook a website</div>
-              <div className="button_bg"></div>
-            </a>
+            <div>
+              <a href="" className="action-button">
+                <div className="button">Start a project</div>
+                <div className="button_bg"></div>
+              </a>
+            </div>
           </div>
         </div>
         <div className="second">

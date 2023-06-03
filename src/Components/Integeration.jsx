@@ -4,16 +4,17 @@ function Integeration() {
   return (
     <>
       <div className="integeration">
-        <div className="hero_content">
-          <span className="hero_heading">
-            WE COOK <span className="highlight">POWERFUL</span> WEBSITES WITH
-            WEBFLOW.
+        <div className="intergeration_content">
+          <span className="intergeration_heading">
+            Integrate your website with{" "}
+            <span className="highlight">powerful tools</span>
           </span>
-          <p className="hero_des">
-            Empowering businesses, brands and startups with the power of Webflow
-            to elevate and spice up their online presence.
+          <p className="intergeration_des">
+            Simplify your marketing processes and create powerful automations by
+            integrating your Webflow website with industry-leading tools that
+            can enhance and expand the capabilities of Webflow.
           </p>
-          <div className="hero-button">
+          <div className="intergeration-button">
             <a href="" className="action-button">
               <div className="button">Let's cook a website</div>
               <div className="button_bg"></div>

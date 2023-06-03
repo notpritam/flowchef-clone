@@ -5,6 +5,9 @@ import Section from "../Components/Section";
 import Stats from "../Components/Stats";
 import Solutions from "../Components/Solutions";
 import Integeration from "../Components/Integeration";
+import Testimonials from "../Components/Testimonials";
+import Deliver from "../Components/Deliver";
+import ContactUs from "../Components/ContactUs";
 
 function LandingPage() {
   return (
@@ -19,6 +22,9 @@ function LandingPage() {
       <Stats />
       <Solutions />
       <Integeration />
+      <Testimonials />
+      <Deliver />
+      <ContactUs />
     </>
   );
 }

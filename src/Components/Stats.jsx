@@ -24,7 +24,14 @@ function Stats() {
 
         <div className="project-img-slider">
           <div className="number-bg"></div>
+          <div className="mask-left"></div>
           <div className="slider-left">
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
             <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
             <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
             <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
@@ -35,6 +42,12 @@ function Stats() {
 
           <div className="mask-right"></div>
           <div className="slider-right">
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
+            <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
             <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
             <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
             <img src="https://assets.website-files.com/63df7fac01f036699dd1dae4/643034aa6701d7af6f3287ac_Normal%20Thumb%20Frame%20(4)%20(1).png"></img>
